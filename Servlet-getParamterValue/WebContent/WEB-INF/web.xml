@@ -1,0 +1,17 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>ongetParameterValues</servlet-name>
+		<servlet-class>com.OngetParameterValues</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+			<servlet-name>ongetParameterValues</servlet-name>
+			<url-pattern>/onGPV</url-pattern>
+	</servlet-mapping>
+	
+   <welcome-file-list>  
+        <welcome-file>index.html</welcome-file>  
+   </welcome-file-list> 
+
+</web-app>

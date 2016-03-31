@@ -1,0 +1,28 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>onServletConfig</servlet-name>
+		<servlet-class>com.OnServletConfig</servlet-class>
+		
+		<init-param>
+					<param-name> n1 </param-name>
+				    <param-value> 100 </param-value>
+		</init-param>
+
+		<init-param>
+					<param-name> n2  </param-name>
+				    <param-value>  200 </param-value>
+		</init-param>
+		
+	</servlet>
+
+	<servlet-mapping>
+			<servlet-name>onServletConfig</servlet-name>
+			<url-pattern>/onSCG</url-pattern>
+	</servlet-mapping>
+	
+   <welcome-file-list>  
+        <welcome-file>index.html</welcome-file>  
+   </welcome-file-list> 
+
+</web-app>
